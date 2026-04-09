@@ -30,6 +30,8 @@ The main goal of this project is to showcase **real-world database management an
   
 - **Table Creation:** Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships
 
+```
+
  CREATE DATABASE library_db;
 
 DROP TABLE IF EXISTS branch;
@@ -42,7 +44,8 @@ CREATE TABLE branch
 );
 
 
--- Create table "Employee"
+- Create table "Employee"
+
 DROP TABLE IF EXISTS employees;
 CREATE TABLE employees
 (
@@ -55,7 +58,8 @@ CREATE TABLE employees
 );
 
 
--- Create table "Members"
+- Create table "Members"
+
 DROP TABLE IF EXISTS members;
 CREATE TABLE members
 (
@@ -67,7 +71,8 @@ CREATE TABLE members
 
 
 
--- Create table "Books"
+- Create table "Books"
+
 DROP TABLE IF EXISTS books;
 CREATE TABLE books
 (
@@ -82,7 +87,8 @@ CREATE TABLE books
 
 
 
--- Create table "IssueStatus"
+- Create table "IssueStatus"
+
 DROP TABLE IF EXISTS issued_status;
 CREATE TABLE issued_status
 (
@@ -99,7 +105,8 @@ CREATE TABLE issued_status
 
 
 
--- Create table "ReturnStatus"
+- Create table "ReturnStatus"
+
 DROP TABLE IF EXISTS return_status;
 CREATE TABLE return_status
 (
@@ -110,6 +117,9 @@ CREATE TABLE return_status
             return_book_isbn VARCHAR(50),
             FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
 );
+
+```
+---
 
 ### 2. CRUD Operations
 
