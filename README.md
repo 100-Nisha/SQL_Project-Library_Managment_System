@@ -10,6 +10,8 @@ This project demonstrates the implementation of a **Library Management System us
 
 The main goal of this project is to showcase **real-world database management and data analysis skills** using SQL.
 
+![Image_ALT]()
+
 ## 🎯 Objectives
 
 1. **Set up the Library Management System Database:** Create and populate the database with tables for     branches, employees, members, books, issued status, and return status.
