@@ -30,7 +30,7 @@ The main goal of this project is to showcase **real-world database management an
   
 - **Table Creation:** Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships
 
- `CREATE DATABASE library_db;
+ CREATE DATABASE library_db;
 
 DROP TABLE IF EXISTS branch;
 CREATE TABLE branch
@@ -109,7 +109,7 @@ CREATE TABLE return_status
             return_date DATE,
             return_book_isbn VARCHAR(50),
             FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
-);`
+);
 
 ### 2. CRUD Operations
 
@@ -125,11 +125,12 @@ VALUES('978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Ha
 SELECT * FROM books;
 
 **Task 2: Update an Existing Member's Address**
-
+```
 UPDATE members
 SET member_address = '125 Oak St'
 WHERE member_id = 'C103';
 
+```
 **Task 3: Delete a Record from the Issued Status Table** -- Objective: Delete the record with issued_id = 'IS121' from the issued_status table.
 
 DELETE FROM issued_status
