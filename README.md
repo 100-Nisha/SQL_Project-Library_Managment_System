@@ -10,7 +10,7 @@ This project demonstrates the implementation of a **Library Management System us
 
 The main goal of this project is to showcase **real-world database management and data analysis skills** using SQL.
 
-![Image_ALT]()
+![Image_ALT](https://github.com/100-Nisha/SQL_Project-Library_Managment_System/blob/main/library.jpg?raw=true)
 
 ## 🎯 Objectives
 
