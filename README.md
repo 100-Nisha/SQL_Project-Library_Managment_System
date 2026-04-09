@@ -21,6 +21,8 @@ The main goal of this project is to showcase **real-world database management an
 
 ### 1. Database Setup
 
+![Image_ALT]()
+
 
 - **Database Creation:** Created a database named library_db.
   
