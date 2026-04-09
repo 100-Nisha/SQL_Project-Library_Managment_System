@@ -21,7 +21,7 @@ The main goal of this project is to showcase **real-world database management an
 
 ### 1. Database Setup
 
-![Image_ALT]()
+![Image_ALT](https://github.com/100-Nisha/SQL_Project-Library_Managment_System/blob/main/Library_ERD.png?raw=true)
 
 
 - **Database Creation:** Created a database named library_db.
