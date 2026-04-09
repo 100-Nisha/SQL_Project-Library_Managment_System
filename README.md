@@ -30,7 +30,7 @@ The main goal of this project is to showcase **real-world database management an
   
 - **Table Creation:** Created tables for branches, employees, members, books, issued status, and return status. Each table includes relevant columns and relationships
 
- CREATE DATABASE library_db;
+ `CREATE DATABASE library_db;
 
 DROP TABLE IF EXISTS branch;
 CREATE TABLE branch
@@ -109,7 +109,7 @@ CREATE TABLE return_status
             return_date DATE,
             return_book_isbn VARCHAR(50),
             FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
-); 
+);`
 
 ### 2. CRUD Operations
 
